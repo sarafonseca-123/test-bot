@@ -5,6 +5,11 @@ metadata:
   description: A repository to test PR bots
   annotations:
     github.com/project-slug: 'sarafonseca-123/test-bot'
+  tags: [automation, python, slack, integrations]
+  links:
+    - url: https://dashboard.example.com
+      title: Dashboard - Integration Usage
+      icon: dashboard
 spec:
   type: service
   lifecycle: production
