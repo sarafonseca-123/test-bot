@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test-bot
+  description: A repository to test PR bots
+  annotations:
+    github.com/project-slug: 'sarafonseca-123/test-bot'
+spec:
+  type: service
+  lifecycle: production
+  system: data-platform
+  owner: data-platform-core
+  dependsOn: dagster-demo
