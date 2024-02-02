@@ -1,0 +1,16 @@
+---
+name: Default CI/CD Workflow
+on:
+  push:
+    branches:
+      - '**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Mock
+      run: |
+        echo "I'm a mock!"
